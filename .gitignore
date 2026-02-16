@@ -1,32 +1,3 @@
 ```
-# Build artifacts
-build/
-dist/
-
-# Dependencies
-lib/
-libs/
-vendor/
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
+.vercel/
 ```
