@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKEA 3008 - 3D Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        #game-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div id="loading">Loading IKEA 3008 Game...</div>
+        <!-- The game will be embedded here -->
+    </div>
+
+    <!-- Embed the LÖVE.js game -->
+    <script>
+        // Basic placeholder - in a real implementation, you would integrate the LÖVE.js build
+        document.getElementById('loading').innerHTML = 'Game loaded! However, this is a placeholder. The actual game requires LÖVE.js integration.';
+    </script>
+</body>
+</html>
